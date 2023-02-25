@@ -1,0 +1,768 @@
+/* ============================================
+                Common CSS Start
+============================================ */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+}
+.title h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+.title p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.title .titlebtn{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 16px;
+}
+.title .titlebtn i{
+    margin-left: 16px;
+}
+/* ============================================
+                Common CSS End
+============================================ */
+
+/* ============================================
+                Nav Bar Start
+============================================ */
+
+nav{
+    padding: 20px 0;
+    background: #1C1E53;
+}
+nav .box{
+    align-items: center;
+}
+nav .logo{
+    width: 20%;
+    height: 100%;
+}
+nav .navitem{
+    width: 80%;
+    height: 100%;
+    column-gap: 48px;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    align-items: center;
+    color: #BBBBCB;
+}
+nav ul li{
+    transition: 0.4s;
+}
+nav ul li:hover{
+    color: #ffff;
+}
+nav a{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffff;
+    border: 1px solid hsla(225, 57%, 97%, 0.2);
+    padding: 16px 48px;
+    border-radius: 41px;
+    transition: 0.4s;
+}
+nav a:hover {
+    background: #ffff;
+    color: #1C1E53;
+}
+/* ============================================
+                Nav Bar End
+============================================ */
+
+/* ============================================
+                Banner Start
+============================================ */
+.banner{
+    background: #1C1E53;
+    padding: 126px 0;
+}
+.banner .left{
+    width: 50%;
+}
+.banner .left h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    color: #ffff;
+    line-height: 74px;
+}
+.banner .left p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #BBBBCB;
+    line-height: 28px;
+    width: 562px;
+    margin-top: 24px;
+}
+.banner .left a{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 16px 48px;
+    margin-top: 48px;
+}
+.banner .left .workbtn{
+    border: 1px solid hsla(225, 57%, 97%, 0.2);
+    color: #000000;
+    border-radius: 41px;
+    background: #FCD980; 
+
+}
+.banner .left .price{
+    color: #ffff;
+}
+.banner .left .price i{
+    margin-left: 16px;
+}
+.banner .right{
+    width: 50%;
+}
+.banner .right img{
+    width: 100%;
+}
+/* ============================================
+                Banner End
+============================================ */
+
+/* ============================================
+                Work Start
+============================================ */
+.work{
+    background: #F4F6FC;
+    padding: 128px 0;
+}
+.work .left{
+    width: 50%;
+}
+.work .left .title p{
+    color: #282938;
+    width: 405px;
+    margin-top: 16px;
+}
+.work .right{
+    width: 50%;
+}
+.work .right .box{
+    flex-wrap: wrap;
+}
+.work .right .box .item{
+    width: 50%;
+    margin-bottom: 48px;
+}
+.work .right .box .item h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: 32px;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.work .right .box .item p{
+    font-family: 'Poppins', sans-serif;
+    font-style: 16px;
+    font-weight: 400;
+    color: #282938;
+    width: 303px;
+}
+/* ============================================
+                Work End
+============================================ */
+/* ============================================
+                Project Start
+============================================ */
+.project{
+    margin-top: 128px;
+    margin-bottom: 96px;
+}
+.project img{
+    width: 100%;
+    display: block;
+}
+.project .box{
+    justify-content: space-between;
+}
+.project .title a{
+    color: #282938;
+}
+.project .leftimg{
+    width: 843px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.project .leftimg .overlay{
+    width: 47%;
+    height: 100%;
+    background: linear-gradient(rgba(28, 30, 83, 0.42), #1C1E53);
+    position: absolute;
+    top: 0;
+    left: -47%;
+    transition: 0.4s;
+    display: flex;
+    align-items: flex-end;
+}
+.project .leftimg .overlay .text{
+    width: 100%;
+    height: 50%;
+    padding: 0 48px;
+}
+.project .leftimg .overlay .text h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: 24px;
+    font-weight: 600;
+    color: #ffff;
+}
+.project .leftimg .overlay .text p{
+    font-family: 'Poppins', sans-serif;
+    font-style: 16px;
+    font-weight: 500;
+    color: #BBBBCB;
+    margin-top: 16px;
+}
+.project .leftimg .overlay .text .titlebtn{
+    color: #FCD980;
+    padding-top: 40px;
+}
+.project .leftimg:hover .overlay{
+    left: 0;
+}
+.project .rightimg{
+    width: 405px;
+}
+.project .rightimg .imgbox{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 32px;
+}
+.project .rightimg .smalloverlay{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(28, 30, 83, 0.42), #1C1E53);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    transition: 0.4s;
+    display: flex;
+    align-items: flex-end;
+}
+.project .rightimg .smalloverlay .text{
+    width: 100%;
+    height: 50%;
+    padding: 0 48px;
+}
+.project .rightimg .smalloverlay .text h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: 24px;
+    font-weight: 600;
+    color: #ffff;
+    width: 200px;
+}
+.project .rightimg .smalloverlay .text .titlebtn{
+    color: #FCD980;
+    padding-top: 14px;
+}
+.project .rightimg .imgbox:hover .smalloverlay{
+    top: 0;
+}
+.project .mt{
+    margin-top: 64px;
+}
+/* ============================================
+                Project End
+============================================ */
+/* ============================================
+                Service Start
+============================================ */
+.service{
+    background: #F4F6FC;
+    padding: 128px 0;
+}
+
+.service .title{
+    text-align: center;
+}
+.service .title p{
+    color: #282938;
+}
+.service .title h2{
+    width: 630px;
+    margin: 0 auto;
+}
+.service .box{
+    margin-top: 47px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 24px;
+}
+.service .box .item{
+    width: 32%;
+    background: #ffff;
+    padding: 58px 32px 48px 48px;
+    box-sizing: border-box;
+}
+.service .box .item i{
+    font-size: 32px;
+    color: #2405F2;
+}
+.service .box .item h2{
+    margin-top: 22px;
+    margin-bottom: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #282938;
+}
+.service .box .item p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    width: 324px;
+}
+/* ============================================
+                Service End
+============================================ */
+/* ============================================
+                Client Start
+============================================ */
+.client{
+    background: #f4f6fcab;
+    padding: 128px 0;
+}
+.client .left{
+    width: 35%;
+}
+.client .left h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    width: 327px;
+    color: #282938;
+}
+.client .left p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 327px;
+    color: #282938;
+}
+.client .right{
+    width: 65%;
+}
+.client .box .right h5{
+    width: 843px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #282938;
+}
+.client .clientinfo{
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.client .clientinfo .clientleft{
+    width: 50%;
+    position: relative;
+    padding-left: 65px;
+}
+.client .clientinfo .clientleft img{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.client .clientinfo .clientleft h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+}
+.client .clientinfo .clientleft p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    color: #282938;
+}
+.client .clientinfo .clientright{
+    width: 50%;
+    text-align: right;
+}
+.client .clientinfo .clientright i{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    font-size: 22px;
+    margin-left: 10px;
+    background: #ffff;
+    text-align: center;
+    line-height: 48px;
+    color: #282938;
+    transition: 0.4s;
+}
+.client .clientinfo .clientright i:hover{
+    background: #5239FA;
+    color: #ffff;
+}
+/* ============================================
+                Client End
+============================================ */
+/* ============================================
+                FAQ Start
+============================================ */
+.faq{
+    padding-top: 128px;
+    padding-bottom: 80px;
+}
+.faq .box .leftfaq{
+    width: 35%;
+}
+.faq .box .leftfaq h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #282938;
+    width: 328px;
+}
+.faq .box .leftfaq p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #2405F2;
+}
+.faq .box .rightfaq{
+    width: 65%;
+}
+.faq .box .rightfaq .holder h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #282938;
+    padding-bottom: 16px;
+    position: relative;
+}
+.faq .box .rightfaq .holder p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #282938;
+    width: 624px;
+    margin-left: 77px;
+}
+
+.faq .box .rightfaq .holder span{
+    margin-right: 53px;
+    color: #2405F2;
+}
+.faq .box .rightfaq .holder h2 i{
+    position: absolute;
+    font-size: 16px;
+    top: 11px;
+    right: 0;
+    color: rgba(40, 41, 56, 0.7);
+}
+.faq .box .rightfaq .holder .bb{
+    border-bottom: 1px solid #ECECF1;
+    padding-bottom: 32px;
+}
+.faq .box .rightfaq .holder{
+    padding-bottom: 48px;
+}
+/* ============================================
+                FAQ End
+============================================ */
+/* ============================================
+                Inquiry Start
+============================================ */
+.inquiry .left{
+    width: 50%;
+    background: url("../images/inquiry/photo1.png");
+}
+
+.inquiry .container .left .layout{
+    width: 100%;
+    background: rgba(28, 30, 83, 0.50);
+    padding: 96px;
+}
+
+.inquiry .left .layout h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    color: #FFFFFF;
+    width: 464px;
+}
+.inquiry .left .layout p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 464px;
+    margin-top: 24px;
+    margin-bottom: 165px;
+}
+.inquiry .right{
+    width: 50%;
+    background: #1C1E53;
+    padding: 96px;
+    padding-bottom: 0;
+}
+.inquiry .right h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #FFFFFF;
+    width: 432px;
+}
+.inquiry .right p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #F4F6FC;
+    width: 432px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+.inquiry .right input{
+    width: 432px;
+    padding: 18px 32px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    background: transparent;
+    margin-top: 16px;
+}
+.inquiry .right input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.inquiry .right input:first-child{
+    margin-top: 0;
+}
+.inquiry .right button{
+    width: 100%;
+    padding: 18px 32px;
+    border-radius: 41px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    background: #FCD980;
+    margin-top: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-top: 39px;
+    margin-bottom: 28px;
+}
+.inquiry .right .getmorebtn{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 100%;
+
+}
+.inquiry .right .getmorebtn i{
+    margin-left: 16px;
+}
+.inquiry .right .getmore{
+    width: 100%;
+    text-align: center;
+}
+/* ============================================
+                Inquiry End
+============================================ */
+/* ============================================
+                Blog Start
+============================================ */
+.blog{
+    padding: 128px 0;
+}
+.blog .box{
+    padding-top: 64px;
+    justify-content: space-between;
+}
+.blog .post{
+    width: 32%;
+}
+.blog .post img{
+    width: 100%;
+}
+.blog .post .date{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    padding-top: 40px;
+    color: rgba(40, 41, 56, 0.6);
+}
+.blog .post h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 16px;
+    color: #282938;
+    width: 405px;
+}
+.blog .post p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    color: rgba(40, 41, 56, 0.6);
+    width: 405px;
+}
+.blog .box .post .readmorebtn{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+.blog .box .post .readmorebtn i{
+    margin-left: 16px;
+}
+/* ============================================
+                Blog End
+============================================ */
+/* ============================================
+                Footer Start
+============================================ */
+.up{
+    padding-top: 100px;
+    background: #1C1E53;
+}
+.up .left{
+    width: 42.7%;
+}
+.up .left .box{
+    flex-direction: column;
+    gap: 86px;
+}
+.up .left .one p{
+    width: 399px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 22px;
+}
+.up .left .two{
+    background: #FCD980;
+    padding-top: 17px;
+    padding-left: 37px;
+    display: flex;
+    gap: 29px;
+}
+.up .left .two .contact h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+.up .left .two .contact p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+}
+.up .right{
+    width: 57.3%;
+    padding-left: 141px;
+}
+.up .right h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+.up .right p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #F4F6FC;
+    width: 399px;
+    margin-top: 14px;
+}
+.up .right i{
+    margin-top: 28px;
+    margin-right: 26.67px;
+    color: #FFFFFF;
+}
+.down .box{
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+.down .right ul{
+    display: flex;
+    gap: 32px;
+}
+/* ============================================
+                Footer End
+============================================ */
